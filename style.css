@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f6f2f0;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --primary-color: #ff5588;
+}
+.container {
+  padding: 20px 80px !important;
+  display: flex;
+}
+.profile-data {
+  width: 19%;
+  margin-top: 70px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px;
+  margin-top: 10px;
+}
+.profile-data button {
+  width: 165px;
+  margin: 20px 30px;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  padding: 10px 40px;
+}
+.profile-data .icons:hover {
+  cursor: pointer;
+}
+.profile-data button:hover {
+  cursor: pointer;
+}
+.profile-details {
+  margin-left: 35px;
+}
+.profile-details .intro h2 {
+  color: var(--primary-color);
+  font-size: 24px;
+  font-weight: 400;
+}
+.profile-details .intro h1 {
+  margin: 30px 0px;
+  font-size: 64px;
+  font-weight: 400;
+}
+.work-done {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.work-done .projects {
+  text-align: center;
+}
+.work-done .projects h1 {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+/* about setion  */
+
+.about {
+  margin-top: 150px;
+}
+.about h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--primary-color);
+  padding-bottom: 15px;
+}
+.about h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.about p {
+  margin-top: 15px;
+}
+
+/* career section */
+
+.career-parent {
+  margin-top: 150px;
+}
+.career-parent .career-child h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--primary-color);
+  padding-bottom: 15px;
+}
+.career-parent .career-child h1 {
+  font-size: 35px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  padding-bottom: 25px;
+}
+.career-parent .career-child span {
+  font-size: 17px;
+  font-weight: 400;
+  padding-bottom: 15px;
+  color: #333333;
+}
+.career-parent .career-child h2 {
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 25px;
+  padding-top: 8px;
+}
+
+/*  services section */
+
+.services-parent {
+  margin-top: 150px;
+}
+.services-parent .services-child h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--primary-color);
+  padding-bottom: 15px;
+}
+.services-parent .services-child h1 {
+  font-size: 35px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.cards-parent {
+  display: flex;
+}
+.card-child h2 {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.card-child {
+  width: 180px;
+  height: 50px;
+  margin: 5px;
+  border: 1px solid #ff5588;
+  border-radius: 20px;
+  padding: 30px 20px;
+  text-align: center;
+}
+/* skill section */
+
+.skill-parent {
+  margin-top: 150px;
+}
+.skill-child h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--primary-color);
+  padding-bottom: 15px;
+}
+.skill-child h1 {
+  font-size: 35px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.imgs-icons {
+  margin-top: 30px;
+}
+.icons-one {
+  margin-right: 20px;
+}
+
+/* portfolio section */
+
+.portfolio-parent {
+  margin-top: 150px;
+}
+.portfolio-child h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--primary-color);
+  padding-bottom: 15px;
+}
+
+.portfolio-child h1 {
+  font-size: 35px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+/* Testimonial section */
+
+.Testimonial-parent {
+  margin-top: 150px;
+}
+.border {
+  border: 1px solid #333333;
+  border-radius: 20px;
+  width: 500px;
+  padding: 50px 60px;
+}
+
+.Testimonial-child h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--primary-color);
+  padding-bottom: 10px;
+}
+.Testimonial-child h1 {
+  font-size: 35px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.Testimonial-child h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-top: 13px;
+}
+
+.Testimonial-child span {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+
+.img-and-name {
+  display: flex;
+}
+
+.Testimonial-child p {
+  margin-top: 20px;
+}
+
+/* brand section */
+
+.brand-parent {
+  margin-top: 150px;
+}
+
+.brand-child h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--primary-color);
+  padding-bottom: 15px;
+}
+.brand-child h1 {
+  font-size: 35px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.brand-icons {
+  display: flex;
+  margin-top: 20px;
+}
+.brand-icons-imgs {
+  margin-right: 70px;
+}
+
+/* form section */
+
+.from-parent {
+  margin-top: 150px;
+}
+
+.from-parent h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--primary-color);
+  padding-bottom: 60px;
+}
+
+.form-input {
+  margin: 20px 0px;
+}
+.form-input input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #c7c0c3;
+  width: 400px;
+  padding: 10px;
+}
+.form-input input:focus {
+  outline: none;
+}
+.form-textarea textarea {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #c7c0c3;
+  padding: 20px 0px;
+}
+.form-textarea textarea:focus {
+  outline: none;
+}
+.hire-me-btn {
+  padding: 20px 55px;
+  border-radius: 15px;
+  border: 1px solid #c7c0c3;
+  margin: 20px 0px;
+}
